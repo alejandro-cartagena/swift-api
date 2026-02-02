@@ -1,0 +1,23 @@
+{
+  "name": "swift-serve",
+  "version": "1.0.0",
+  "description": "backend structure for swift serve",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Alejandro Cartagena",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-session": "^1.18.2",
+    "nodemon": "^3.1.11",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "validator": "^13.15.26"
+  }
+}
